@@ -15,6 +15,8 @@ FormRain::FormRain(QWidget *parent, const QString &name) :
     pix_overcast = new  QPixmap (":/icons/icons/weather-overcast.png");
     pix_sleet = new  QPixmap (":/icons/icons/weather-showers.png");
     pix_icy = new  QPixmap (":/icons/icons/weather-icy.png");
+
+    ui->groupBox->setTitle(name);
 }
 
 void FormRain::showIcon(int uv, int temper, int rainfall)

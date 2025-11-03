@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/icons">
+        <file>icons/pump_off.png</file>
+        <file>icons/pump_on.png</file>
+        <file>icons/weather-overcast.png</file>
+        <file>icons/weather-showers.png</file>
+        <file>icons/weather-sunny.png</file>
+        <file>icons/weather-few-clouds.png</file>
+        <file>icons/weather-fog.png</file>
+        <file>icons/weather-icy.png</file>
+        <file>icons/weather-snow.png</file>
+        <file>icons/weather-sunny-very-few-clouds.png</file>
+    </qresource>
+    <qresource prefix="/sound"/>
+    <qresource prefix="/">
+        <file>sound/Alarm.mp3</file>
+    </qresource>
+</RCC>
